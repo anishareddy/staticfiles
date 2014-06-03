@@ -732,6 +732,9 @@ input[disabled], select[disabled], textarea[disabled], input[readonly], select[r
 .control-group.error > label, .control-group.error .help-block, .control-group.error .help-inline {
     color: #DF382C;
 }
+.span.control-group.error > label, .span.control-group.error .span.help-block, .span.control-group.error .span.help-inline {
+    color: #DF382C;
+}
 .control-group.error input, .control-group.error select, .control-group.error textarea {
     border-color: #DF382C;
     color: #DF382C;
